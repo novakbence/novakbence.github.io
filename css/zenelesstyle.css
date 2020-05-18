@@ -1,0 +1,211 @@
+*{
+	
+	box-sizing: border-box;
+	
+}
+
+html{
+	
+	height: 100%;
+	
+}
+
+body{
+	
+	background-image: url('../pics/bg-body.gif');
+	
+	background-repeat: no-repeat;
+	
+	background-size: cover;
+	
+	background-attachment: fixed;
+	
+	color: black;
+	
+	font-size: 20px;
+	
+	line-height: 30px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	
+	margin: 0;	
+	
+}
+
+header{
+	
+	background: white;
+	
+	color: blue;
+	
+	border-left: 10px solid blue;
+	
+	padding: 50px;
+	
+	font-size: 50px;
+	
+	font-weight: 700;
+	
+	text-shadow: 0 0 20px rgba(0,0,0,.5);
+	
+}
+
+footer{
+	
+	background: white;
+	
+	width: 250px;
+	
+	border-left: 10px solid blue;
+	
+	margin: 60px;
+	
+}
+
+footer a{
+	
+	color: blue;
+	
+	padding: 20px;
+	
+	text-decoration: none;
+	
+	display: block;
+	
+	margin: 0 auto;
+	
+}
+
+footer a:hover{
+	
+	background: #cccc00;
+	
+	color: blue;
+	
+}
+
+.box .header-image {
+	
+	background-image: url('../pics/image6.png');
+	
+	height: 744px;
+	
+	background-repeat: no-repeat;
+	
+}
+
+.box{
+	
+	background: white;
+	
+	border-left: 10px solid blue;
+	
+	margin: 0 auto;
+	
+	max-width: 1000px;
+	
+}
+
+.content{
+	
+	padding: 20px;
+	
+}
+
+.box a {
+	
+	color: blus;
+	
+	text-decoration: none;
+	
+	display: inline;
+	
+	margin: 0;
+	
+	background: #cccc00;
+	
+}
+
+.box a:hover {
+	
+	color: #cccc00;
+	
+	background: blue;
+	
+}
+
+nav {
+	
+	background: white;
+	
+	border-left: 10px solid blue;
+	
+	margin: 0 0 40px 0;
+	
+}
+
+nav ul {
+	
+	margin: 0;
+	
+	padding: 0;
+	
+	list-style: none;
+	
+}
+
+nav ul li {
+	
+	border-right: 1px dashed blue;
+	
+	float: left;
+	
+	width: 33.33333333%;
+	
+	font-size: 40px;
+	
+	font-weight: 450;
+	
+	text-shadow: 0 0 20px rgba(0,0,0,.5);
+	
+}
+
+nav::after{
+	
+	content:"";
+	
+	clear: both;
+	
+	display: table;
+	
+}
+
+nav a {
+	
+	color: blue;
+	
+	text-decoration: none;
+	
+	padding: 20px;
+	
+	display: block;
+	
+	margin: 0 auto;
+	
+}
+
+nav a:hover {
+	
+	background: #cccc00;
+	
+	color: blue;
+	
+}
+
+h2 {
+	
+	text-shadow: 0 0 20px rgba(0,0,0,.5);
+	
+	color: blue;
+	
+}
